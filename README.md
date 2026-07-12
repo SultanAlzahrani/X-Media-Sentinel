@@ -1,6 +1,6 @@
 # x-media-sentinel
 
-A lightweight Python watcher that monitors an X (Twitter) account and automatically downloads any new photos or videos as they're posted — no manual checking, no re-downloading duplicates.
+A lightweight Python watcher that monitors an X (Twitter) account and automatically downloads any new photos or videos as they're posted. No manual checking, no re-downloading duplicates.
 
 Built on top of [`gallery-dl`](https://github.com/mikf/gallery-dl) for the actual extraction, with a polling loop, live timestamped logging, and a timeout guard on top so a stuck or rate-limited run doesn't hang the whole process.
 
